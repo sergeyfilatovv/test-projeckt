@@ -1,0 +1,55 @@
+.button {
+    display: inline-block;
+    background-color:#3E9CDC;
+    padding: 15px 32px;
+    border: #FFFFFF solid 1px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+
+    &.button--more{
+        background-color:#FFFFFF;
+        color: #2A2B30;
+        border: #6F6D7B solid 1px;
+    }
+
+    &.button--dropdown{
+        position: relative;
+        width: 370px;
+        text-align: left;
+        
+    
+        background: #ffffff;
+        color: #272733;
+        border-radius: 6px;
+        border:none;
+        display: inline-block;
+    
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 10px;
+        padding-right: 35px;
+    
+        font-weight: 400;
+        font-size: 18px;
+        transition: all 0.1s ease-in;
+    
+        cursor: pointer;
+
+        &.button--active{
+            background: #3D4050;
+            color: #ffffff;
+            border-radius: 6px 6px 0px 0px;
+        }
+    }
+
+    &.button--submit{
+        padding: 18px 125px;
+        font-family: 'FontLato'; 
+        font-size: 15px;
+        color: #FFFFFF;
+        
+    }
+
+}

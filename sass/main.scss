@@ -1,0 +1,24 @@
+// Base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/fonts";
+
+//Section
+@import "./section/header-top";
+@import "./section/header";
+@import "./section/order";
+@import "./section/footer";
+
+//Block
+@import "./block/info-block";
+@import "./block/button";
+@import "./block/scheme";
+@import "./block/card";
+@import "./block/decorative-block";
+@import "./block/title";
+@import "./block/subtitle";
+@import "./block/dropdown";
+@import "./block/form";
+@import "./block/range-slaider";
+@import "./block/input-file";
+

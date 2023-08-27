@@ -1,0 +1,44 @@
+.header-top {
+    padding-top: 34px;
+    padding-bottom: 32px;
+    background-color: rgba(16, 16, 29, 0.9);
+
+    position: sticky;
+    z-index: 10;
+    top:0px;
+   
+   
+}
+
+.header-top__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top__logo {
+    color: #FFFFFF;
+    font-family: 'FontReleway';
+    font-size: 28px;
+
+}
+
+.header-top__logo span{
+    color: #42A9ED;
+}
+.header-top__nav {
+    width: 435px;
+}
+.header-top__list {
+    display: flex;
+    justify-content: space-between;
+}
+.header-top__line {
+    color: #FFFFFF;
+    transition: color 0.1s ease-in;
+    font-size: 13px;
+    font-family: 'FontLato'; 
+
+    &:hover{
+        color: #42A9ED;
+    }
+}

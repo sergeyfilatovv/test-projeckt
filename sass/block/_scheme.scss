@@ -1,0 +1,37 @@
+.scheme{
+    margin-bottom: 80px;
+    width: 1172px;
+}
+
+.scheme__title-wrapper {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.scheme__wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 51px;
+    align-items: center;
+    position: relative;
+    
+    
+   
+}
+
+.scheme__decorative-wrapper{
+    display: flex;
+    column-gap: 130px;
+    justify-content: center;
+    width: 833px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    transform: translateY(-50%);
+    
+    top: 50px;
+    
+    
+    
+
+}

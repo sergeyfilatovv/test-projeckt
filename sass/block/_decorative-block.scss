@@ -1,0 +1,12 @@
+.decorative-block {
+    display: flex;
+    column-gap: 20px;
+   
+
+}
+.decorative-block__item {
+    width: 6px;
+    height: 6px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+}

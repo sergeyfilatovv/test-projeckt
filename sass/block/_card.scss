@@ -1,0 +1,39 @@
+.card {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.card__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:#286690 solid 5px ;
+    
+    
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3E9CDC;
+}
+.card__img {
+    width: 55px;
+    height: 55px;
+    
+}
+.card__title {
+    width: 188px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+
+    &.card__title--edit{
+        padding-bottom: 15px;
+    }
+    
+}

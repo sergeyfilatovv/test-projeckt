@@ -1,0 +1,61 @@
+.form {
+   width: 1172px;
+}
+.form__group {
+    display: grid;
+    grid-template-columns: repeat(3, 370);
+    grid-template-rows: 48px 48px;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "dropdown form__input--edit form__input"
+    "range-slider range-slider button--loading";
+
+    margin-bottom: 55px;
+}
+
+.dropdown{
+    grid-area: dropdown;
+}
+
+.form__input{
+    grid-area: form__input;
+}
+
+.form__input--edit{
+    grid-area: form__input--edit;
+}
+
+.range-slider{
+    grid-area: range-slider;
+}
+
+.button--loading{
+    grid-area: button--loading;
+}
+
+.form__input {
+    width: 370px;
+    height: 48px;
+    padding: 12px 10px;
+
+    border-radius: 3px;
+    background-color: rgba(#ffffff, 0.85);
+    border:#ffffff solid 1px ;
+    font-size: 18px;
+
+}
+
+.form__input:-moz-placeholder{
+    color: #272733;
+    font-weight: 400;
+}
+.form__input::-webkit-input-placeholder {
+    color: #272733;
+    font-weight: 400;
+ }
+
+ .form__wrapper{
+    display: flex;
+    justify-content: center;
+ }
+

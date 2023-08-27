@@ -1,0 +1,22 @@
+#custom-file-input {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .custom-file-label {
+    width: 370px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: #3E9CDC solid 2px;
+    color: #272733;
+    font-family: 'FontLato';
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 12px 97px;
+    cursor: pointer;
+  }
+  
