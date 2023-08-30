@@ -6,6 +6,14 @@
     position: sticky;
     z-index: 10;
     top:0px;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-top: 24px;
+        padding-bottom: 22px;
+    }
+
+  
    
    
 }
@@ -20,6 +28,21 @@
     font-family: 'FontReleway';
     font-size: 28px;
 
+    /* Tablet */
+    @media (max-width: 1140px) {
+        font-size: 26px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 24px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 22px;
+    }
+
 }
 
 .header-top__logo span{
@@ -27,6 +50,18 @@
 }
 .header-top__nav {
     width: 435px;
+
+    /* Tablet */
+    @media (max-width: 1140px) {
+        width: 390px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        display: none;
+    }
+
+
 }
 .header-top__list {
     display: flex;
@@ -41,4 +76,9 @@
     &:hover{
         color: #42A9ED;
     }
+
+   
 }
+
+
+

@@ -1,0 +1,74 @@
+.mobile-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 25px;
+    position: fixed;
+    top: 34px;
+    right: 16px;
+    z-index: 115;
+    pointer-events: none;
+    
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        top: 24px;
+    }
+}
+
+.mobile-btn{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    background-color: #ffffff;
+
+    &::after, &::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background-color: #ffffff;
+    }
+
+   &::before{
+    bottom: -10px;
+   }
+
+   &::after{
+    top: -10px;
+   }
+
+   /* Mobile XS */
+   @media (max-width: 899px) {
+       display: block;
+   }
+}
+
+/* Active state */
+
+.mobile-btn-wrapper--active{
+    height: 30px;
+
+}
+
+.mobile-btn.mobile-btn--active {
+    background-color: transparent;
+
+    &::before, &::after {
+        top: 0;
+        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+        
+    }
+
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
+    
+
+

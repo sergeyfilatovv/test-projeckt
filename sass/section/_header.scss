@@ -5,6 +5,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
+
+    /* Tablet */
+    @media (max-width: 1140px) {
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
 }
+
+
 
 

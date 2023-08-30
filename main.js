@@ -3,7 +3,6 @@ const dropDownBtn = document.querySelector('.button--dropdown')
 const dropDownIcon = document.querySelector('.dropdown__icon')
 const dropDownList = document.querySelector('.dropdown__list')
 
-console.log(dropDownIcon)
 
 dropDownBtn.addEventListener('click', (e) => {
     e.preventDefault()

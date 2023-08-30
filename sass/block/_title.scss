@@ -3,6 +3,17 @@
     font-family: 'FontLato'; 
     color: #FFFFFF;
     margin-bottom: 30px;
+
+    /* Tablet */
+    @media (max-width: 1201px) {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 26px;
+    }
 }
 
 .title span{

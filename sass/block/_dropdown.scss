@@ -2,6 +2,11 @@
 .dropdown__wrapper{
 	position: relative;
 	width: 370px;
+
+	/* Tablet */
+	@media (max-width: 1201px) {
+		width: 230px;
+	}
 }
 .dropdown__icon-wrapper{
 	position: absolute;
@@ -9,6 +14,11 @@
 	transform: translateY(-50%);
 	right: 14px;
 	pointer-events: none;
+
+	/* Tablet */
+	@media (max-width: 1201px) {
+		right: 10px;
+	}
 }
 
 .dropdown__icon--edit{
@@ -31,6 +41,11 @@
 	border-radius: 0px 0px 5px 5px;
 	width: 370px;
 	overflow-y: scroll;
+
+	/* Tablet */
+	@media (max-width: 1201px) {
+		width: 230px;
+	}
 	
 
 	

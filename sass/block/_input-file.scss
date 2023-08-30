@@ -3,6 +3,7 @@
     position: absolute;
     overflow: hidden;
     z-index: -1;
+    display: none;
   }
   
   .custom-file-label {
@@ -18,5 +19,11 @@
     border-radius: 3px;
     padding: 12px 97px;
     cursor: pointer;
+
+    /* Tablet */
+    @media (max-width: 1201px) {
+      width: 230px;
+      padding: 12px 20px;
+    }
   }
   
