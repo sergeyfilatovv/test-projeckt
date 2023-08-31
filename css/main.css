@@ -174,11 +174,11 @@ body > * {
 
 @font-face {
   font-family: 'FontLato';
-  src: url(../fonts/lato-semibold.ttf);
+  src: url(../../fonts/lato-semibold.ttf);
 }
 @font-face {
   font-family: 'FontReleway';
-  src: url(../fonts/Raleway-ExtraBold.ttf);
+  src: local("FontReleway"), url(../../fonts/Raleway-ExtraBold.ttf);
 }
 .header-top {
   padding-top: 34px;
@@ -537,6 +537,7 @@ body > * {
     font-size: 40px;
     margin-bottom: 45px;
     text-align: center;
+    color: #ffffff;
   }
 }
 @media (max-width: 599px) {
@@ -574,10 +575,16 @@ body > * {
   font-size: 20px;
   margin-bottom: 10px;
   /* Tablet */
+  /* Mobile */
 }
 @media (max-width: 1201px) {
   .info-block__centr p {
     font-size: 18px;
+  }
+}
+@media (max-width: 899px) {
+  .info-block__centr p {
+    color: #ffffff;
   }
 }
 
@@ -596,6 +603,7 @@ body > * {
   font-size: 20px;
   position: relative;
   /* Tablet */
+  /* Mobile */
 }
 .info-block__line::after {
   content: "";
@@ -608,10 +616,21 @@ body > * {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: -11px;
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .info-block__line::after {
+    background-color: #ffffff;
+  }
 }
 @media (max-width: 1201px) {
   .info-block__line {
     font-size: 18px;
+  }
+}
+@media (max-width: 899px) {
+  .info-block__line {
+    color: #ffffff;
   }
 }
 
