@@ -530,7 +530,6 @@ body > * {
   .info-block__title {
     font-size: 44px;
     margin-bottom: 50px;
-    text-shadow: 2px 2px 4px #aaddff88;
   }
 }
 @media (max-width: 899px) {
@@ -641,7 +640,13 @@ body > * {
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 400;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
   /* Tablet */
+}
+.button:hover {
+  border: #000000 solid 1px;
+  background-color: #0099ff;
 }
 @media (max-width: 1201px) {
   .button {
@@ -652,6 +657,9 @@ body > * {
   background-color: #FFFFFF;
   color: #2A2B30;
   border: #6F6D7B solid 1px;
+}
+.button.button--more:hover {
+  background-color: #d3edff;
 }
 .button.button--dropdown {
   position: relative;

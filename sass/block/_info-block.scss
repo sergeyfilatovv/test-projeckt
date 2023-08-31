@@ -27,7 +27,7 @@ width: 780px;
     @media (max-width: 1201px) {
         font-size: 44px;
         margin-bottom: 50px;
-        text-shadow: 2px 2px 4px #aaddff88;
+        // text-shadow: 2px 2px 4px #aaddff88;
     }
 
     /* Mobile */
@@ -35,8 +35,6 @@ width: 780px;
         font-size: 40px;
         margin-bottom: 45px;
         text-align: center;
-
-        
     }
 
     /* Mobile XS */
@@ -82,6 +80,7 @@ color: #3E9CDC;
     /* Mobile */
     @media (max-width: 899px) {
         text-align: left;
+        
         
     }
 }
