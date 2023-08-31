@@ -3,7 +3,7 @@
     padding-bottom: 152px;
 
     background-color: #272733;
-    background-image: url('../img/order/decoration-bg.png');
+    background-image: url('../img/order/order-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,12 +12,19 @@
     @media (max-width: 1201px) {
         padding-top: 100px;
         padding-bottom: 120px;
+        background-image: url('../img/order/order-bg-tablet.png');
     }
 
     /* Mobile */
     @media (max-width: 899px) {
         padding-top: 50px;
         padding-bottom: 60px;
+        background-image: url('../img/order/order-bg-mobile.png');
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        background-image: url('../img/order/order-bg-mobile-xs.png');
     }
 }
 

@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <form class="form">
+            <form class="form" name="form">
                 <fieldset class="form__group">
                     <div class="dropdown">
                         <div class="dropdown__wrapper">
@@ -125,14 +125,14 @@
                             <li class="dropdown__list-item" data-value="value-5">Itaque earum rerum</li>
                         </ul>
                     </div>
-                    <input type="text" class="form__input form__input--edit" placeholder="Ваш e-mail">
-                    <input type="text" class="form__input" placeholder="Ваше имя">
+                    <input type="text" name="e-mail" class="form__input form__input--edit" placeholder="Ваш e-mail">
+                    <input type="text" name="name" class="form__input" placeholder="Ваше имя">
                     <div class="range-slider">
                         <div class="range-slaider__wrapper">
                             <h4 class="range-slider__title">Sed ut perspiciatis, unde omnis iste natus</h4>
                             <p class="range-slider__percent">75 %</p>
                         </div>
-                        <input type="range" class="range-slaider__track" value="75" min="0" max="100">
+                        <input type="range" name="range" class="range-slaider__track" value="75" min="0" max="100">
                     </div>
                     <div class="form__group-wrapper">
                         <label for="custom-file-input" class="custom-file-label">
@@ -141,7 +141,7 @@
                                 </svg>
                             Прикрепить файл
                         </label>
-                        <input type="file" id="custom-file-input">
+                        <input type="file" name="file" id="custom-file-input">
                     </div>
                 </fieldset>
                 <div class="form__wrapper">

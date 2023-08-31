@@ -2,15 +2,37 @@
     padding-top: 103px;
     padding-bottom: 202px;
     background-image: url('../img/header/header-bg.jpg');
+    background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
 
     /* Tablet */
-    @media (max-width: 1140px) {
+    @media (max-width: 1201px) {
         padding-top: 90px;
         padding-bottom: 120px;
+        
     }
+
+    /* Tablet */
+    @media (max-width: 1201px) {
+        background-image: url('../img/header/header-bg-tablet.jpg');
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        background-image: url('../img/header/header-bg-mobile.jpg');
+
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        background-image: url('../img/header/header-bg-mobile-xs.jpg');
+    }
+
+
+
+
 }
 
 
