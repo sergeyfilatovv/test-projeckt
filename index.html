@@ -11,8 +11,7 @@
     <div class="mobile-btn-wrapper">
         <div class="mobile-btn"></div>
     </div>
-    <!-- mobile-nav-btn -->
-    <section class="header-top">
+    <div class="header-top">
         <div class="container">
             <div class="header-top__wrapper">
                 <div class="header-top__logo">LoremIpsum.<span>Net</span></div>
@@ -26,13 +25,14 @@
                 </nav>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- mobile-nav-btn -->
     <header class="header">
         <div class="container">
             <div class="info-block">
-                <h1 class="info-block__title"><span>Lorem ipsum</span> dolor sit <br/> amet consectetur <span>adipiscing</span></h1>
+                <h1 class="info-block__title"><span class="info-block__item-title">Lorem ipsum</span> dolor sit <br/> amet consectetur <span class="info-block__item-title">adipiscing</span></h1>
                 <div class="info-block__centr">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+                    <p class="info-block__item-centr">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
                     <ul class="info-block__list">
                         <li class="info-block__line">Totam rem aperiam eaque ipsa</li>
                         <li class="info-block__line">Sit voluptatem accusantium doloremque laudantium</li>
@@ -132,7 +132,7 @@
                             <h4 class="range-slider__title">Sed ut perspiciatis, unde omnis iste natus</h4>
                             <p class="range-slider__percent">75 %</p>
                         </div>
-                        <input type="range" name="range" class="range-slaider__track" value="75" min="0" max="100">
+                        <input type="range" name="range" class="range-slaider__track" oninput="func1()" value="75" min="0" max="100">
                     </div>
                     <div class="form__group-wrapper">
                         <label for="custom-file-input" class="custom-file-label">
@@ -153,9 +153,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__info">
+                <h4 class="footer__info">
                     © 2018 «LoremIpsum.net» Все права защищены.
-                </div>
+                </h4>
                 <div class="footer__payment">
                     <div class="footer__payment-type">
                         <img src="./img/footer/qiwi-wallet-icon.svg" alt="qiwi wallet">
